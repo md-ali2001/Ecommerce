@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/cartfragment">
+
+    <fragment
+        android:id="@+id/cartfragment"
+        android:name="com.example.ecommerce.fragments.cartfragment"
+        android:label="fragment_cartfragment"
+        tools:layout="@layout/fragment_cartfragment" />
+    <fragment
+        android:id="@+id/homefragment"
+        android:name="com.example.ecommerce.fragments.homefragment"
+        android:label="fragment_homefragment"
+        tools:layout="@layout/fragment_homefragment" />
+    <fragment
+        android:id="@+id/movefragment"
+        android:name="com.example.ecommerce.fragments.movefragment"
+        android:label="fragment_movefragment"
+        tools:layout="@layout/fragment_movefragment" />
+</navigation>
