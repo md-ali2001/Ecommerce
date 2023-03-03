@@ -16,7 +16,7 @@
         android:label="fragment_homefragment"
         tools:layout="@layout/fragment_homefragment" />
     <fragment
-        android:id="@+id/movefragment"
+        android:id="@+id/morefragment"
         android:name="com.example.ecommerce.fragments.movefragment"
         android:label="fragment_movefragment"
         tools:layout="@layout/fragment_movefragment" />
