@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
 
 
     <item android:title="HOME"
 
-        android:id="homefragment"
+        android:id="@+id/homefragment"
         android:icon="@drawable/home2"
 
 android:backgroundTint="@color/purple_500"
 
         />
     <item android:title="CART"
-        android:id="cartfragment"
+        android:id="@+id/cartfragment"
         android:textColor="@color/cardview_dark_background"
         android:icon="@drawable/cart2"/>
 
@@ -21,6 +20,6 @@ android:backgroundTint="@color/purple_500"
 
     <item android:title="PROFILE"
 
-        android:id="morefragment"
+        android:id="@+id/morefragment"
         android:icon="@drawable/profile2"/>
 </menu>
