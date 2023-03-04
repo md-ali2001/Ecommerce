@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 
         val popupMenu=PopupMenu(this,null)
         popupMenu.inflate(R.menu.bottom_nav)
-        binding.navigation.setupWithNavController(popupMenu.menu,navController)
+        binding.navigation.setupWithNavController(navController)
         navController.addOnDestinationChangedListener(object :NavController.OnDestinationChangedListener{
             override fun onDestinationChanged(
                 controller: NavController,
@@ -45,6 +45,4 @@ class MainActivity : AppCompatActivity() {
     }
 }
 
-private fun BottomNavigationView.setupWithNavController(navController: Menu?, navController1: NavController) {
 
-}
